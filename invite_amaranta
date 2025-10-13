@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//LaHaus//Amaranta Webinar//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Bogota
+X-LIC-LOCATION:America/Bogota
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+TZNAME:-05
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID: (generado automáticamente; único por archivo)
+SUMMARY:Webinar: Lanzamiento Amaranta en Serena del Mar
+DTSTAMP:20251013T215233Z
+DTSTART;TZID=America/Bogota:20251018T193000
+DTEND;TZID=America/Bogota:20251018T203000
+DESCRIPTION:Únete al webinar de lanzamiento de Amaranta, el único proyecto de casas en Serena del Mar con el mejor precio por m² y ubicación privilegiada entre el mar y la Ciénaga de la Virgen. Casas de 125–160 m², rodeadas de naturaleza y amenidades (piscina de nado, gimnasio, salón social, juegos infantiles, senderos, restaurante y canchas deportivas).\n\nVer en vivo: https://youtube.com/live/ipQHhWTJzS4?feature=share
+URL:https://youtube.com/live/ipQHhWTJzS4?feature=share
+LOCATION:YouTube Live
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Recordatorio: Webinar de lanzamiento Amaranta
+END:VALARM
+END:VEVENT
+END:VCALENDAR
